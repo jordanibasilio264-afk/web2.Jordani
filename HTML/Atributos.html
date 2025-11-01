@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos.html</title>
+    <link rel="stylesheet" href="/Css/stylos.css">
+</head>
+
+<body>
+    <section>
+        <Header>
+            <a href="/index.HTML"><img src="/Imagenes/Logo HTML.png" alt="Logo" width="80" height="80"></a>
+            <nav id="Navegador">
+                <a href="/index.HTML">Inicio</a>
+                <a href="/HTML/Etiqueta.html">Etiqueta</a>
+                <a href="/HTML/Atributos.html">Atributos</a>
+                <a href="/HTML/Css.html">Css</a>
+                <a href="/HTML/Javascript.html">JavaScript</a>
+                <a href="/HTML/Contacto.html">Contacto.html</a>
+                <a href="/HTML/Acercade.html">Acercade.html</a>
+            </nav>
+        </Header>
+    </section><br>
+
+    <section>
+        <nav id="parrafo">
+            <h2>Contenido</h2>
+            <a href="#Atributo.0">1.- Atributos globales.</a><br>
+            <a href="#1.1a">1.1</a><br>
+            <a href="#1.2a">1.2</a><br>
+            <a href="#1.3a">1.3</a><br>
+            <a href="#2a">2.- atributos form</a><br>
+            <a href="#2.1a">2.1</a><br>
+            <a href="#2.2a">2.2</a><br>
+            <a href="#a-input">3.- atributos input</a><br><br>
+        </nav>
+    </section>
+
+    <section id="Atributo.0">
+        <h2>Atributos globales</h2>
+        <p>Los atributos globales son atributos comunes a todos los elementos HTML; se pueden usar en todos los
+            elementos, aunque es posible que no tengan ningún efecto en algunos elementos. <br><br>
+            Los atributos globales se pueden especificar en todos los elementos HTML, incluso aquellos no especificados
+            en el estándar. Eso significa que cualquier elemento no estándar debe permitir estos atributos, aunque el
+            uso de esos elementos significa que el documento ya no es compatible con HTML5. Por ejemplo, los navegadores
+            compatibles con HTML5 ocultan el contenido marcado como &lt;foo hidden>...&lt;/foo>, aunque &lt;foo> no sea
+            un elemento HTML válido.</p><img src="/Imagenes/dsa.jfif" alt="atributos" width="1000">
+    </section><br>
+
+    <section id="1.1a">
+        <h2>1.1</h2>
+        <p>xml:lang y xml:base — estos se heredan de las especificaciones XHTML y están en desuso, pero se mantienen por
+            motivos de compatibilidad. <br><br>
+            Los múltiples atributos [aria-*](/es/docs/Web/Accessibility/ARIA), utilizados para mejorar la accesibilidad.
+            <br><br>
+            Los atributos de control de eventos: onabort, onautocomplete, onautocompleteerror, onblur, oncancel,
+            oncanplay, oncanplaythrough, onchange, onclick, onclose, oncontextmenu, oncuechange, ondblclick, ondrag,
+            ondragend, ondragenter, ondragexit, ondragleave, ondragover, ondragstart, ondrop, ondurationchange,
+            onemptied, onended, onerror, onfocus, oninput, oninvalid, onkeydown, onkeypress, onkeyup, onload,
+            onloadeddata, onloadedmetadata, onloadstart, onmousedown, onmouseenter, onmouseleave, onmousemove,
+            onmouseout, onmouseover, onmouseup, onmousewheel, onpause, onplay, onplaying, onprogress, onratechange,
+            onreset, onresize, onscroll, onseeked, onseeking, onselect, onshow, onsort, onstalled, onsubmit, onsuspend,
+            ontimeupdate, ontoggle, onvolumechange, onwaiting.
+        </p>
+    </section><br>
+
+    <section id="1.2a">
+        <h2>1.2</h2>
+        <p>[accesskey](/es/docs/Web/HTML/Global_attributes/accesskey) <br><br>
+            Proporciona una pista para generar un atajo de teclado para el elemento actual. Este atributo consta de una
+            lista de caracteres separados por espacios. El navegador debe utilizar el primero que exista en la
+            distribución del teclado del ordenador. <br><br>
+            [autocapitalize](/es/docs/Web/HTML/Global_attributes/autocapitalize) <br><br>
+            Controla si la entrada de texto se pone en mayúsculas automáticamente a medida que el usuario la introduce o
+            edita. Puede tener los siguientes valores: <br><br>
+        <ul>
+            <li> off o none, no se aplica capitalización automática (todas las letras están predeterminadas en
+                minúsculas)</li> <br><br>
+            <li>on o sentences, la primera letra de cada oración de manera predeterminada tiene una letra mayúscula;
+                todas
+                las demás letras están predeterminadas en minúsculas </li><br><br>
+            <li> words, la primera letra de cada palabra de manera predeterminada tiene una letra mayúscula; todas las
+                demás
+                letras están predeterminadas en minúsculas </li><br><br>
+            <li>characters, todas las letras de manera predeterminada deben estar en mayúsculas </li>
+        </ul> <br>
+        [class](/es/docs/Web/HTML/Global_attributes/class) <br><br>
+        Una lista separada por espacios de las clases del elemento. Las clases permiten que CSS y JavaScript
+        seleccionen y accedan a elementos específicos a través de los selectores de clase o funciones como el método
+        document.getElementsByClassName(). <br><br>
+        [contenteditable](/es/docs/Web/HTML/Global_attributes/contenteditable) <br><br>
+        Un atributo enumerado que indica si el usuario debe poder editar el elemento. Si es así, el navegador
+        modifica su «widget» para permitir la edición. El atributo debe tomar uno de los siguientes valores: <br><br>
+        true o la cadena vacía, la cual indica que el elemento debe ser editable;
+        false, el cual indica que el elemento no debe ser editable.</p>
+    </section><br>
+
+    <section id="1.3a">
+        <h2>1.3</h2>
+        <p>[contenteditable](/es/docs/Web/HTML/Global_attributes/contenteditable) <br><br>
+            Un atributo enumerado que indica si el usuario debe poder editar el elemento. Si es así, el navegador
+            modifica su «widget» para permitir la edición. El atributo debe tomar uno de los siguientes valores:
+            <br><br>
+            true o la cadena vacía, la cual indica que el elemento debe ser editable; <br><br>
+            false, el cual indica que el elemento no debe ser editable. <br><br>
+            [contextmenu](/es/docs/Web/HTML/Global_attributes/contextmenu) <br><br> Obsoleto
+            El id de un <br><br>
+            &lt;menu> para usar como el menú contextual para este elemento. <br><br>
+            [data-*](/es/docs/Web/HTML/Global_attributes/data-*) <br><br>
+            Forma una clase de atributos, denominados atributos de datos personalizados, que permiten el intercambio de
+            información de propiedad entre el HTML y su representación DOM que pueden utilizar los scripts. Todos estos
+            datos personalizados están disponibles a través de la interfaz HTMLElement del elemento en el que está
+            configurado el atributo. La propiedad HTMLElement.dataset les da acceso. <br><br>
+            [dir](/es/docs/Web/HTML/Global_attributes/dir) <br><br>
+            Un atributo enumerado que indica la direccionalidad del texto del elemento. Puede tener los siguientes
+            valores: <br><br>
+            ltr, que significa de izquierda a derecha y s debe usar para idiomas que se escriben de izquierda a derecha
+            (tal como el Español); <br><br>
+            rtl, que significa de derecha a izquierda y se utiliza para idiomas que se escriben de derecha a izquierda
+            (tal como el Árabe); <br><br>
+            auto, permite que el agente de usuario decida. <br><br> Utiliza un algoritmo básico ya que analiza los
+            caracteres
+            dentro del elemento hasta que encuentra un carácter con una direccionalidad fuerte, luego aplica esa
+            direccionalidad a todo el elemento. <br><br>
+            [draggable](/es/docs/Web/HTML/Global_attributes/draggable) <br><br>
+            Un atributo enumerado que indica si el elemento se puede arrastrar mediante la API de arrastrar y soltar.
+            Puede tener los siguientes valores: <br><br>
+            true, indica que el elemento se puede arrastrar
+            false, indica que el elemento no se puede arrastrar. <br><br>
+            [dropzone](/es/docs/Web/HTML/Global_attributes/dropzone) <br><br>Obsoleto
+            Un atributo enumerado que indica qué tipos de contenido se pueden colocar en un elemento, utilizando la API
+            de arrastrar y soltar. Puede tener los siguientes valores: -copy, indica que soltar creará una copia del
+            elemento que se arrastró <br><br>
+            move, indica que el elemento que se arrastró se moverá a esta nueva ubicación.
+            link, creará un enlace a los datos arrastrados. <br><br>
+            [exportparts](/es/docs/Web/HTML/Global_attributes/exportparts) <br><br> Experimental
+            Se utiliza para exportar de forma transitiva partes de sombras de un árbol de sombras anidado a un árbol
+            contenedor de luz. <br><br>
+            [hidden](/es/docs/Web/HTML/Global_attributes/hidden) <br><br>
+            Un atributo booleano indica que el elemento aún no es o ya no es relevante. Por ejemplo, se puede utilizar
+            para ocultar elementos de la página que no se pueden utilizar hasta que se haya completado el proceso de
+            inicio de sesión. El navegador no representará tales elementos. Este atributo no se debe utilizar para
+            ocultar contenido que se podría mostrar legítimamente. <br><br>
+            [id](/es/docs/Web/HTML/Global_attributes/id) <br><br>
+            Define un identificador (ID) único que debe ser único en todo el documento. Su propósito es identificar el
+            elemento al vincularlo (usando un identificador de fragmento), al escribir un script o al aplicarle estilo
+            (con CSS). <br><br>
+            [inputmode](/es/docs/Web/HTML/Global_attributes/inputmode) <br><br>
+            Proporciona una pista a los navegadores sobre el tipo de configuración de teclado virtual que se debe
+            utilizar al editar este elemento o su contenido. Se usa principalmente en elementos &lt;input>, pero se
+            puede
+            usar en cualquier elemento mientras esté en modo contenteditable. <br><br>
+            [is](/es/docs/Web/HTML/Global_attributes/is) <br><br>
+            Te permite especificar que un elemento HTML estándar se debe comportar como un elemento integrado
+            personalizado registrado (consulta Uso de elementos personalizados para obtener más detalles).
+        </p>
+    </section><br>
+
+    <section id="2a">
+        <h2>2.- atributos form</h2>
+        <p>El elemento HTML form (form>) representa una sección de un documento que contiene controles interactivos que
+            permiten a un usuario <br><br>
+            enviar información a un servidor web <br><br>
+            Es posible usar las pseudo-clasess de CSS :valid e :invalid para darle estilos a un elemento form.
+            Lista de todos los atributos &lt;form> <br><br>
+            Atributo y Descripción <br><br>
+            (accept-charset) Especifica las codificaciones de caracteres utilizadas para el envío del formulario
+            <br><br>
+            (action) Especifica dónde enviar los datos del formulario cuando se envía un formulario <br><br>
+            (autocomplete) Especifica si un formulario debe tener la función de autocompletar activada o desactivada
+            <br><br>
+            (enctype) Especifica cómo se deben codificar los datos del formulario al enviarlos al servidor (solo para
+            method="post") <br><br>
+            (method) Especifica el método HTTP que se utilizará al enviar los datos del formulario <br><br>
+            (name) Especifica el nombre del formulario <br><br>
+            (novalidate) Especifica que el formulario no debe validarse al enviarse <br><br>
+            (rel) Especifica la relación entre un recurso vinculado y el documento actual <br><br>
+            (target) Especifica dónde mostrar la respuesta recibida después de enviar el formulario
+        </p><img src="/Imagenes/hs.png" alt="atributos form">
+    </section> <br>
+
+    <section id="2.1a">
+        <h2>2.1</h2>
+        <p>El actionatributo define la acción que se realizará cuando se envíe el formulario. <br><br>
+            Normalmente, los datos del formulario se envían a un archivo en el servidor cuando el usuario hace clic en
+            el botón de enviar <br><br>
+            En el ejemplo siguiente, los datos del formulario se envían a un archivo llamado "action_page.php".</p>
+    </section> <br>
+
+    <section id="2.2a">
+        <h2>2.2</h2>
+        <p><strong>El atributo Target</strong><br><br>
+            El targetatributo especifica dónde mostrar la respuesta que se recibe después de enviar el formulario.</p>
+        <p><strong>El atributo Method</strong><br><br>
+            El methodatributo especifica el método HTTP que se utilizará al enviar los datos del formulario. <br><br>
+            Los datos del formulario se pueden enviar como variables de URL (con method="get") o como una transacción
+            HTTP POST (con method="post"). <br><br>
+            El método HTTP predeterminado al enviar datos de formulario es GET. </p>
+        <p><strong>El atributo Autocomplete </strong><br><br>
+            El autocompleteatributo especifica si un formulario debe tener la función de autocompletar activada o
+            desactivada <br><br>
+            Cuando la función de autocompletar está activada, el navegador completa automáticamente los valores
+            basándose en los valores que el usuario ha introducido previamente.</p>
+        <p><strong>El atributo novalidate</strong> <br><br>
+            El novalidateatributo es un atributo booleano. <br><br>
+            Cuando está presente, especifica que los datos del formulario (entrada) no deben validarse al enviarse.</p>
+    </section><br>
+
+    <section id="a-input">
+        <h2>Atributos input</h2>
+        <p>El elemento HTML &lt;input> se usa para crear controles interactivos para formularios basados en la web con
+            el
+            fin de recibir datos del usuario.Hay disponible una amplia variedad de tipos de datos de entrada y widgets
+            de control, que dependen del dispositivo y el agente de usuario (user agent).El elemento &lt;input> es uno
+            de
+            los más potentes y complejos en todo HTML debido a la gran cantidad de combinaciones de tipos y atributos de
+            entrada. <br><br>
+            Categorías de contenido Contenido dinámico, enlistado, presentable, reajustable, elemento asociado a
+            formulario, contenido textual. Si su atributo type no es hidden, entonces contenido etiquetable, contenido
+            palpable. <br><br>
+            Contenido permitido Ninguno, pues es un elemento vacío. <br><br>
+            Omisión de etiqueta Debe tener una etiqueta de apertura y no debe tener etiqueta de cierre. <br><br>
+            Elementos padre permitidos Cualquier elemento que acepte contenido textual. <br><br>
+            Interfaz DOM HTMLInputElement</p><img src="/Imagenes/atributos input.jfif" alt="atributos input">
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.HTML</title>
+    <link rel="stylesheet" href="/Css/stylos.css">
+</head>
+
+<body>
+    <section>
+        <Header>
+            <a href="/index.HTML"><img src="Imagenes/Logo HTML.png" alt="Logo" width="80" height="80"></a>
+            <nav id="Navegador">
+                <a href="/index.HTML">Inicio</a>
+                <a href="/HTML/Etiqueta.html">Etiqueta</a>
+                <a href="/HTML/Atributos.html">Atributos</a>
+                <a href="/HTML/Css.html">Css</a>
+                <a href="/HTML/Javascript.html">JavaScript</a>
+                <a href="/HTML/Contacto.html">Contacto.html</a>
+                <a href="/HTML/Acercade.html">Acercade.html</a>
+            </nav>
+        </Header>
+    </section>
+    <br>
+    <section>
+        <nav id="parrafo">
+            <h2>Contenido</h2>
+            <a href="#parrafo-1">1.- ¿Qué es HTML?</a><br>
+            <a href="#parrafo-2">2.- Historia HTML</a><br>
+            <a href="#parrafo-3">3.- Editores de HTML.</a><br>
+            <a href="#parrafo-4">4.- Tu primer documento HTML</a><br>
+            <a href="#parrafo-5">5.- ¿Que son Etiquetas en HTML?</a><br>
+            <a href="#parrafo-6">6.- ¿Que son Atributos en HTML?</a><br>
+            <a href="#parrafo-7">7.- Reglas fundamentales en HTML</a><br>
+            <a href="#parrafo-8">8.- Etiquetas para hacer un documento HTML.</a>
+        </nav>
+        <br><br>
+
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-1">¿Qué es HTML?</h2>
+        <p>HTML son las siglas de HyperText Markup Language (Lenguaje de Marcado de Hipertexto), el lenguaje estándar
+            utilizado para crear la estructura de las páginas web. Se compone de un sistema de etiquetas que organizan
+            el contenido, como textos, imágenes y enlaces, para que los navegadores puedan interpretarlo y mostrarlo de
+            manera organizada y funcional. </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/10GHKjgQIR0?si=kjJuDRZj4PEY3wN7"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-2">Historia HTML</h2>
+        <p>La primera versión de este código apareció en 1991 y fue escrita por Tim Berners-Lee (TBL), siendo poco más
+            que un diseño inicial de 18 elementos, 13 de los cuales aún se conservan. Se lo consideró poco más que una
+            variante del Lenguaje de Marcado General Estándar (SGML) en uso y consistente en un lenguaje de etiquetas,
+            pero ya en 1993 se reconocieron sus virtudes y su potencia en la estandarización de los lenguajes de la Red.
+        </p><br>
+        <p> Entonces se inició el trabajo en Html+, una versión más desarrollada, y en 1995 se obtuvo la tercera versión
+            del estándar: HTML 3.0, cuyas sucesivas actualizaciones (3.1 y 3.2) fueron de gran éxito en los primeros
+            navegadores populares de Netscape y Mosaic. En 1997 aparecería el HTML 4.0, ya como recomendación de la W3C,
+            y finalmente en 2006 la versión más reciente, HTML 5.0.</p> <img src="/Imagenes/Logo HTML.png" alt="">
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-3">Editores de HTML.</h2>
+        <p><strong>Visual Studio Code:</strong> Un editor muy popular que ofrece una gran cantidad de extensiones y
+            soporte para múltiples lenguajes de programación. Su integración con Git y su terminal incorporada lo hacen
+            muy versátil.</p>
+
+        <p><strong>Atom:</strong> Desarrollado por GitHub, Atom es un editor de texto hackeable que permite personalizar
+            casi todo. Tiene una interfaz amigable y es ideal para proyectos colaborativos.</p>
+
+        <p><strong>Sublime Text:</strong>Conocido por su velocidad y eficiencia, Sublime Text es un editor ligero que
+            ofrece características avanzadas como la edición múltiple y la navegación rápida entre archivos.</p>
+
+        <p><strong>Notepad++:</strong>Un clásico entre los editores de texto, Notepad++ es gratuito y ligero. Es ideal
+            para quienes buscan una herramienta simple pero efectiva para editar HTML y otros lenguajes.</p>
+
+        <p><strong>Brackets:</strong>Este editor está diseñado específicamente para el desarrollo web. Ofrece una vista
+            previa en vivo y es muy útil para trabajar con HTML, CSS y JavaScript.</p>
+
+        <p><strong>Adobe Dreamweaver CC:</strong> Aunque es un software de pago, Dreamweaver es una opción robusta para
+            el diseño web, ofreciendo herramientas visuales y de código.</p>
+
+        <p><strong>Komodo Edit:</strong>Un editor gratuito que soporta múltiples lenguajes y ofrece características como
+            la autocompletación de código y la depuración.</p>
+
+        <p><strong>VIM:</strong>Para los usuarios que prefieren trabajar en la terminal, VIM es un editor de texto
+            altamente configurable que es muy poderoso una vez que te acostumbras a su modo de operación.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cDuvyi5vRv4?si=pmwSOFp2FoU0EJN9"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-4">Tu primer documento HTML</h2>
+        <p>Tu primer documento HTML debe tener una estructura básica que incluye &lt;!DOCTYPE html&gt;, &lt;html&gt;,
+            &lt;head &gt; y &lt;body&gt;. En el &lt;head&gt; va información sobre la página como el título
+            (&lt;title&gt;), y en el &lt;body&gt; va todo el contenido visible como texto e imágenes. </p>
+        <h3>Ejemplo:</h3>
+        <img src="/Imagenes/Screenshot 2025-10-29 201530.png" alt="Ejemplo">
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-5">¿Que son Etiquetas en HTML?</h2>
+        <p>Las etiquetas HTML son fragmentos de código que se utilizan para estructurar y dar formato al contenido de
+            una página web, indicando al navegador cómo debe mostrar cada elemento. Funcionan como marcadores y
+            generalmente vienen en pares: una etiqueta de apertura y una de cierre, que se escriben entre corchetes
+            angulares (&lt; y &gt;).</p><img src="/Imagenes/asda.png" alt="Etiqueta">
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-6">¿Que son Atributos en HTML?</h2>
+        <p>Los atributos en HTML son palabras especiales que se colocan en la etiqueta de apertura de un elemento para
+            proporcionar información adicional sobre él y modificar su comportamiento o apariencia. Se componen de un
+            nombre y un valor, y se usan para configurar elementos, ajustar su funcionalidad o definir aspectos como el
+            origen de una imagen (src) o un texto alternativo (alt). </p><img src="data:image/jpeg;base64,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" alt="atributos">
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-7">Reglas fundamentales en HTML </h2>
+        <p><strong>Estructura básica: </strong><br><br>
+
+            Todo documento HTML5 debe tener una estructura básica que incluya las siguientes etiquetas:
+            &lt;!DOCTYPE html&gt;: Declara el tipo de documento.
+            &lt;html&gt;: Contiene todo el contenido de la página.
+            &lt;head&gt;: Incluye metadatos, enlaces a estilos y scripts.
+            &lt;body&gt;: Contiene el contenido visible de la página.
+            Etiquetas de apertura y cierre: <br><br>
+
+            Cada elemento HTML debe tener una etiqueta de apertura y una etiqueta de cierre. Por ejemplo:
+            &lt;p&gt;Este es un párrafo.&lt;/p&gt;
+            Etiquetas vacías: <br><br>
+
+            Algunas etiquetas no requieren una etiqueta de cierre, como &lt;br/&gt; y &lt;hr /&gt;. Estas se consideran
+            etiquetas vacías.
+            Atributos: <br><br>
+
+            Los atributos proporcionan información adicional sobre un elemento. Deben estar entre comillas. Por ejemplo:
+            &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+            Anidación correcta: <br><br>
+
+            Las etiquetas deben estar correctamente anidadas. Por ejemplo, no debes cerrar una etiqueta antes de cerrar
+            su etiqueta padre:
+            Correcto: &lt;div&gt;&lt;p&gt;Texto&lt;/p&gt;&lt;/div&gt;
+            Incorrecto: &lt;div&gt;&lt;p&gt;Texto&lt;/div&gt;&lt;/p&gt;
+            Uso de comentarios: <br><br>
+
+            Puedes incluir comentarios en tu código HTML que no serán visibles en el navegador. Se escriben así:
+            &lt;!-- Este es un comentario --&gt;
+            Semántica: <br><br>
+
+            Utiliza etiquetas semánticas adecuadas para mejorar la accesibilidad y el SEO. Por ejemplo, usa
+            &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, y &lt;section&gt; para estructurar tu contenido.
+            Codificación de caracteres: <br><br>
+
+            Asegúrate de especificar la codificación de caracteres en el &lt;head&gt; para evitar problemas con
+            caracteres especiales:
+            &lt;meta charset="UTF-8"&gt;</p> <img src="/Imagenes/Logo HTML.png" alt="Logo">
+    </section>
+    <br>
+    <section>
+        <h2 id="parrafo-8">Etiquetas para hacer un documento HTML.</h2>
+        <p>Para hacer un documento HTML, necesitas las etiquetas básicas: &lt;!DOCTYPE html&gt; para declarar el tipo de
+            documento, &lt;html&gt; para la raíz, &lt;head&gt; para metadatos y &lt;body&gt; para el contenido visible.
+            Dentro de &lt;body&gt;, usa etiquetas como &lt;h1&gt; para títulos, &lt;p&gt; para párrafos, &lt;a&gt; para
+            enlaces e &lt;img&gt; para imágenes para estructurar el contenido. </p><img src="/Imagenes/Logo HTML.png" alt="logo">
+    </section>
+</body>
+
+</html>

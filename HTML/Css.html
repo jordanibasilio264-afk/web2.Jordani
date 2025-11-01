@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css.html</title>
+    <link rel="stylesheet" href="/Css/stylos.css">
+</head>
+
+<body>
+    <section>
+        <Header>
+           <a href="/index.HTML"><img src="/Imagenes/Logo HTML.png" alt="Logo" width="80" height="80"></a>
+            <nav id="Navegador">
+                <a href="/index.HTML">Inicio</a>
+                <a href="/HTML/Etiqueta.html">Etiqueta</a>
+                <a href="/HTML/Atributos.html">Atributos</a>
+                <a href="/HTML/Css.html">Css</a>
+                <a href="/HTML/Javascript.html">JavaScript</a>
+                <a href="/HTML/Contacto.html">Contacto.html</a>
+                <a href="/HTML/Acercade.html">Acercade.html</a>
+            </nav>
+        </Header>
+    </section><br>
+
+    <section>
+        <nav id="parrafo">
+            <h2>Contenido</h2>
+            <a href="#css.1">1.- ¿Qué es CSS?</a><br>
+            <a href="#css.2">2.- ¿Cómo utilizar CSS con HTML?</a><br>
+            <a href="#css.3">3.- CSS en línea</a><br>
+            <a href="#css.4">4.- CSS interno.</a><br>
+            <a href="#css.5">5.- CSS Externo</a><br><br>
+        </nav>
+    </section><br>
+
+    <section id="css.1">
+        <h2>1.- ¿Qué es CSS?</h2>
+        <p>Una página web es realmente un documento de texto. En dicho documento se escribe código HTML, con el que se
+            que crea el contenido de una web. Por otro lado, existe el código CSS, que unido al código HTML permite
+            darle forma, color, posición (y otras características visuales) a un documento web. <br><br>
+            En resumen, se trata de un «idioma» o lenguaje, como podría ser el inglés o el alemán, que los navegadores
+            web como Chrome o Firefox conocen y pueden entender. Nuestro objetivo como diseñadores y programadores web
+            es precisamente ese: aprender el idioma e indicarle al navegador lo que debe hacer. <br><br>
+        </p><img src="/Imagenes/sad.png"alt="Css">
+    </section><br>
+
+    <section id="css.2">
+        <h2>2.- ¿Cómo utilizar CSS con HTML?</h2>
+        <p>En principio, tenemos tres formas diferentes de hacerlo, siendo la primera la más común y la última la menos
+            habitual: <br><br>
+            Mediante... Descripción
+            (Etiqueta &lt;link rel="stylesheet">) Archivo CSS externo: El código se escribe en un archivo .css a parte.
+            (Etiqueta &lt;style>) Bloque de estilos: El código se escribe en una etiqueta &lt;style> en el documento
+            HTML.
+            (Atributo HTML style="...") Estilos en línea: El código se escribe en un atributo HTML style en una
+            etiqueta.
+        </p><img src="/Imagenes/sad.png" alt="css">
+    </section><br>
+
+    <section id="css.3">
+        <h2>3.- CSS en línea</h2>
+        <p>Dentro de las formas que tenemos de escribir CSS, existe un concepto llamado Estilos en linea (inline
+            styles). Esta forma de añadir estilos se basa en escribir el CSS directamente en la etiqueta HTML a través
+            del atributo style: <br><br>
+            &lt;h1 style="color:white;background-color:red">Esto es un título rojo</h1>
+        </p><img src="/Imagenes/sad.png" alt="css">
+    </section><br>
+
+    <section id="css.4">
+        <h2>4.- CSS interno</h2>
+        <p>El CSS interno, también conocido como CSS incrustado, se utiliza para estilizar una sola página HTML
+            añadiendo el código CSS directamente dentro de la etiqueta &lt;style>
+            en la sección &lt;head>de ese documento. Esta técnica es útil para diseños específicos de una página,
+            pero no es recomendable para sitios web con múltiples páginas,
+            ya que los estilos no se pueden reutilizar en otras páginas y su mantenimiento se vuelve tedioso. </p><img src="/Imagenes/sad.png" alt="css">
+    </section><br>
+
+    <section id="css.5">
+        <h2>5.- CSS Externo</h2>
+        <p>El CSS externo es un archivo .css separado que contiene reglas de estilo para un sitio web completo, lo que
+            permite mantener el código HTML limpio y facilita los cambios de diseño en múltiples páginas. Para usarlo,
+            se incluye una etiqueta
+            &lt;link> en el &lt;head> de cada página HTML para referenciar el archivo de estilo externo. Este enfoque es ideal para mantener la consistencia en un sitio grande y mejora las velocidades de carga, ya que el navegador puede almacenar en caché el archivo CSS.
+        </p><img src="/Imagenes/sad.png" alt="css">
+    </section>
+</body>
+
+</html>
