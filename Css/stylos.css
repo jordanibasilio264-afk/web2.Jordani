@@ -24,7 +24,7 @@ section{
     width: 550px;
 }
 
-input[type="text"]{
+input[type="text"], input[type="email"]{
     margin-left: 100px;
     width: 300px;
 }
@@ -48,8 +48,8 @@ input[type="text"]{
     width: 550px;
     background-color: whitesmoke;
 }
-button{
+input[type="submit"]{
     position: relative;
-    left: 450px;
+    left: 390px;
     width: 85px;
 }

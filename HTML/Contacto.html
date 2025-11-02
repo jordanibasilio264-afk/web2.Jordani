@@ -9,9 +9,9 @@
 <body>
     <section>
         <Header>
-            <a href="/index.html.HTML"><img src="/Imagenes/Logo HTML.png" alt="Logo" width="80" height="80"></a>
+            <a href="/index.html"><img src="/Imagenes/Logo HTML.png" alt="Logo" width="80" height="80"></a>
             <nav id="Navegador">
-                <a href="/index.html.HTML">Inicio</a>
+                <a href="/index.html">Inicio</a>
                 <a href="/HTML/Etiqueta.html">Etiqueta</a>
                 <a href="/HTML/Atributos.html">Atributos</a>
                 <a href="/HTML/Css.html">Css</a>
@@ -27,15 +27,15 @@
         <h2>Envianos un mensaje y te responderemos de inmediato</h2>
         </nav>
         <br><br>
-        <nav id="Contactoo">
+        <form action="" id="Contactoo">
         <label for="Asunto"><strong>Asunto:</strong></label>
-        <input type="text" id="a" placeholder="Asunto"><br><br>
+        <input type="text" id="a" placeholder="Asunto" required><br><br>
         <label for="Correo"><strong>Correo:</strong></label>
-        <input type="text" id="c" placeholder="Correo"><br><br>
+        <input type="email" id="c" name="Correo" placeholder="Correo" required><br><br>
         <label for="mensaje"><strong>Mensaje:</strong></label>
-        <input type="text" id="m" placeholder="Escribe un mensaje..."><br><br>
-        </nav>
-        <button type="button">Enviar</button><br><br>
+        <input type="text" name="mensaje" id="m" placeholder="Escribe un mensaje..." required><br><br>
+        <input type="submit" value="Enviar"><br><br>
+        </form> 
     </section><br>
 </body>
 </html>
