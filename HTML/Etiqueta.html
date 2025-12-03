@@ -9,20 +9,20 @@
 </head>
 
 <body>
-    <section>
-        <Header>
-            <a href="../index.html"><img src="../Imagenes/Logo HTML.png" alt="Logo" width="80" height="80"></a>
-            <nav id="Navegador">
-                <a href="../index.html">Inicio</a>
-                <a href="Etiqueta.html">Etiqueta</a>
-                <a href="Atributos.html">Atributos</a>
-                <a href="Css.html">Css</a>
-                <a href="Javascript.html">JavaScript</a>
-                <a href="Contacto.html">Contacto.html</a>
-                <a href="Acercade.html">Acercade.html</a>
-            </nav>
-        </Header>
-    </section><br>
+
+    <Header>
+        <a href="../index.html"><img src="../Imagenes/Logo HTML.png" alt="Logo" width="80" height="80"></a>
+        <nav class="Navegador">
+            <a href="../index.html">Inicio</a>
+            <a href="Etiqueta.html" id="colo">Etiqueta</a>
+            <a href="Atributos.html">Atributos</a>
+            <a href="Css.html">Css</a>
+            <a href="Javascript.html">JavaScript</a>
+            <a href="Contacto.html">Contacto.html</a>
+            <a href="Acercade.html">Acercade.html</a>
+        </nav>
+    </Header>
+    <br>
 
     <section>
         <nav id="parrafo">
@@ -66,7 +66,8 @@
             documento, mientras que <strong>&lt;html></strong>, <strong>&lt;head></strong>, <strong>&lt;title></strong>
             y <strong>&lt;body></strong> estructuran el contenido básico. El <strong>&lt;!DOCTYPE html> </strong> le
             indica al navegador que se trata de un documento HTML moderno y <strong>&lt;head></strong> contiene
-            metadatos, <strong>&lt;body> </strong> contiene todo el contenido visible de la página. </p><img src="../Imagenes/asda.png" alt="etiqueta">
+            metadatos, <strong>&lt;body> </strong> contiene todo el contenido visible de la página. </p><img
+            src="../Imagenes/asda.png" alt="etiqueta">
     </section><br>
 
     <section id="2.parrafo">
@@ -79,7 +80,7 @@
             llama el elemento
             raíz. A pesar de que esta etiqueta puede ser implicita, o no requerida en HTML, sí es requerida para abrir y
             cerrar en XHTML.
-        </p> 
+        </p>
     </section><br>
 
     <section id="3.parrafo">
@@ -90,7 +91,8 @@
 
     <section id="4.parrafo">
         <h2>body</h2>
-        <p>El elemento &lt;body> de HTML representa el contenido de un documento HTML. Solo puede haber un elemento &lt;body> en un documento.
+        <p>El elemento &lt;body> de HTML representa el contenido de un documento HTML. Solo puede haber un elemento
+            &lt;body> en un documento.
         </p>
     </section><br>
 
@@ -98,9 +100,10 @@
         <h2>2.-Etiquetas de Meta Datos.</h2>
         <p>Las etiquetas de metadatos HTML son fragmentos de código que se colocan en la sección
 
-            &lt;head> de un documento y proporcionan información adicional sobre la página a los navegadores y motores de
-                búsqueda. Estas etiquetas son invisibles para el usuario final, pero son cruciales para ayudar a los
-                navegadores y buscadores a entender y clasificar el contenido de una página web.
+            &lt;head> de un documento y proporcionan información adicional sobre la página a los navegadores y motores
+            de
+            búsqueda. Estas etiquetas son invisibles para el usuario final, pero son cruciales para ayudar a los
+            navegadores y buscadores a entender y clasificar el contenido de una página web.
         </p><img src="../Imagenes/meta-etiqueta-diccionario-seo-02-1.png" alt="meta datos">
     </section><br>
 
@@ -113,7 +116,7 @@
             &lt;meta>Las etiquetas siempre van dentro del elemento <br><br>
 
             &lt;head> y se utilizan normalmente para especificar el conjunto de caracteres, la descripción de la página,
-                las palabras clave, el autor del documento y la configuración del viewport.
+            las palabras clave, el autor del documento y la configuración del viewport.
         </p>
     </section><br>
 
@@ -160,7 +163,8 @@
             Las más comunes son &lt;div> para agrupar elementos sin significado semántico y &lt;p> para agrupar párrafos
             de texto. También existen etiquetas semánticas como &lt;div>, &lt;section>, &lt;nav>, &lt;header> y
             &lt;footer> que agrupan contenido según su función, y otras como &lt;figure> y &lt;figcaption> para agrupar
-            una imagen o ilustración con su leyenda. </p> <img src="../Imagenes/Screenshot 2025-10-29 201530.png" alt="Agrupacion">
+            una imagen o ilustración con su leyenda. </p> <img src="../Imagenes/Screenshot 2025-10-29 201530.png"
+            alt="Agrupacion">
     </section><br>
 
     <section id="12.parrafo">
@@ -216,7 +220,8 @@
 
     <section id="18.parrafo">
         <h2>4.- Etiquetas Textuales.</h2>
-        <p>Las etiquetas de texto son las que dan significado a los textos que contienen.</p><img src="../Imagenes/8.webp" alt="Textuales" >
+        <p>Las etiquetas de texto son las que dan significado a los textos que contienen.</p><img
+            src="../Imagenes/8.webp" alt="Textuales">
     </section><br>
 
     <section id="19.parrafo">
@@ -244,44 +249,62 @@
     <section id="23.parrafo">
         <h2>cite</h2>
         <p>cite -cita . Marca una referencia a una fuente, o el autor de un texto citado.
-            Sus etiquetas son: &lt;cite> y &lt;/cite> (ambas obligatorias)Está definido como: Elemento de frase, y por lo tanto en línea. <br><br>
+            Sus etiquetas son: &lt;cite> y &lt;/cite> (ambas obligatorias)Está definido como: Elemento de frase, y por
+            lo tanto en línea. <br><br>
             Crea una caja: En línea. <br><br>
             Puede contener: Text y/o cero o más elementos en línea.</p>
     </section><br>
 
     <section id="24.parrafo">
         <h2>5.-Etiquetas Semanticas.</h2>
-        <p>Las etiquetas semánticas son etiquetas HTML que definen el significado y propósito de su contenido para los navegadores y los motores de búsqueda, ayudando a estructurar y organizar un sitio web de manera más clara</p><img src="../Imagenes/asd.jfif" alt="Semanticas" >
+        <p>Las etiquetas semánticas son etiquetas HTML que definen el significado y propósito de su contenido para los
+            navegadores y los motores de búsqueda, ayudando a estructurar y organizar un sitio web de manera más clara
+        </p><img src="../Imagenes/asd.jfif" alt="Semanticas">
     </section><br>
 
     <section id="25.parrafo">
         <h2>nav</h2>
-        <p>La etiqueta &lt;nav> nos permite crear una sección que agrupe los enlaces de navegación por la página, es decir, una especie de &lt;div> contenedor orientado a desplazarse por los diferentes lugares del sitio web.</p>
+        <p>La etiqueta &lt;nav> nos permite crear una sección que agrupe los enlaces de navegación por la página, es
+            decir, una especie de &lt;div> contenedor orientado a desplazarse por los diferentes lugares del sitio web.
+        </p>
     </section><br>
 
     <section id="26.parrafo">
         <h2>section</h2>
-        <p>El elemento de HTML &lt;section> representa una sección genérica independiente de un documento, que no tiene un elemento semántico más específico para representarla. Las secciones siempre deben tener un título, con muy pocas excepciones.</p>
+        <p>El elemento de HTML &lt;section> representa una sección genérica independiente de un documento, que no tiene
+            un elemento semántico más específico para representarla. Las secciones siempre deben tener un título, con
+            muy pocas excepciones.</p>
     </section><br>
 
     <section id="27.parrafo">
         <h2>article</h2>
-        <p>La etiqueta HTML &lt;article> se utiliza para agrupar información muy relevante de una página o documento concreto. Lo primero, es pensar en nuestro documento y reducirlo a la mínima expresión en una lista.</p>
+        <p>La etiqueta HTML &lt;article> se utiliza para agrupar información muy relevante de una página o documento
+            concreto. Lo primero, es pensar en nuestro documento y reducirlo a la mínima expresión en una lista.</p>
     </section><br>
 
     <section id="28.parrafo">
         <h2>header</h2>
-        <p>La etiqueta &lt;header> nos permite identificar la cabecera de una página o documento concreto, igual a como lo haríamos con un &lt;div class="header">&lt;/div>, pero añadiendo esa semántica implícita y eliminando la necesidad de añadirle una clase.</p>
+        <p>La etiqueta &lt;header> nos permite identificar la cabecera de una página o documento concreto, igual a como
+            lo haríamos con un &lt;div class="header">&lt;/div>, pero añadiendo esa semántica implícita y eliminando la
+            necesidad de añadirle una clase.</p>
     </section><br>
 
     <section id="29.parrafo">
         <h2>main</h2>
-        <p>El elemento HTML &lt;main> representa el contenido principal del &lt;body> de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación. Este contenido debe ser único al documento, excluyendo cualquier contenido que se repita a través de un conjunto de documentos como barras laterales, enlaces de navegación, información de derechos de autor, logos del sitio y formularios de búsqueda (a menos, claro, que la función principal del documento sea un formulario de búsqueda).</p>
+        <p>El elemento HTML &lt;main> representa el contenido principal del &lt;body> de un documento o aplicación. El
+            área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre
+            el tema central de un documento o la funcionalidad central de una aplicación. Este contenido debe ser único
+            al documento, excluyendo cualquier contenido que se repita a través de un conjunto de documentos como barras
+            laterales, enlaces de navegación, información de derechos de autor, logos del sitio y formularios de
+            búsqueda (a menos, claro, que la función principal del documento sea un formulario de búsqueda).</p>
     </section><br>
 
     <section id="30.parrafo">
         <h2>footer</h2>
-        <p>De la misma forma que hemos visto la etiqueta &lt;header>, tenemos la etiqueta &lt;footer>. Mientras que la primera se utiliza para indicar cabeceras, esta última se utiliza para agrupar los elementos a pie de página o elemento. La forma de utilizarla, es exactamente igual que la etiqueta &lt;header>, incluso utilizándola como hija de un elemento semántico.</p>
+        <p>De la misma forma que hemos visto la etiqueta &lt;header>, tenemos la etiqueta &lt;footer>. Mientras que la
+            primera se utiliza para indicar cabeceras, esta última se utiliza para agrupar los elementos a pie de página
+            o elemento. La forma de utilizarla, es exactamente igual que la etiqueta &lt;header>, incluso utilizándola
+            como hija de un elemento semántico.</p>
     </section><br>
 </body>
 

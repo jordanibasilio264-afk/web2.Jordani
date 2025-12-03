@@ -1,21 +1,33 @@
-#Navegador{
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: solid;
+    border-radius: 5px;
+    background-color: white
+}
+
+.Navegador{
     font-size: 20px;
     color: black;
-    position: relative;
-    left: 50px;
-    top: -40px;
-    width: 650px;
-    display: flex;
+   
 }
 
-#Navegador a{
+.Navegador a{
     color: black;
     text-decoration: none;
-    padding-left: 48px;
+    padding: 0 40px;
 }
 
+
 section{
-    border: solid; height: 200; width: 200; 
+    border: solid; height: 200; width: 200;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
 }
 
 #parrafo{
@@ -34,22 +46,57 @@ input[type="text"], input[type="email"]{
   margin-right: 74px
 }
 
-#a{
+#a,#c{
   height: 20px;
 }
 
-#c{
-  height: 20px;
-}
-
-#Contactoo{
-    position: relative;
-    left: 60px;
-    width: 550px;
+.Contactoo1{
     background-color: whitesmoke;
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 40px;
 }
 input[type="submit"]{
     position: relative;
     left: 390px;
     width: 85px;
+}
+
+#parrafo a{
+    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Navegador a:hover{
+  color: #B33900;
+  transition-duration:  9;
+}
+
+#colo{
+    color: #ff5000
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+    background-color: #ff5000;
+}
+
+label{
+    margin-left: 20px;
+}
+
+.Jordani1{
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.Jordani1 a{
+    text-decoration: none;
+    color:#B33900
 }
